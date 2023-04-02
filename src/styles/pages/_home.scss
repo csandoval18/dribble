@@ -76,7 +76,7 @@ body {
 	flex-direction: column;
 	height: 100%;
 	justify-content: start;
-	padding: 4rem 2rem;
+	padding: 2rem;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -96,9 +96,6 @@ body {
 		list-style: none;
 		li {
 			color: $white;
-			a {
-				font-size: 1.08rem;
-			}
 		}
 	}
 }
@@ -127,7 +124,7 @@ body {
 	.sub-heading {
 		color: $white !important;
 		line-height: 2rem;
-		margin-bottom: 80px;
+		margin-bottom: 60px;
 	}
 }
 
