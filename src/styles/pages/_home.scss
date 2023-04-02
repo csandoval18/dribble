@@ -121,7 +121,27 @@ body {
 	}
 }
 .search-input-hero {
+  border-radius: 50px;
+  overflow: hidden;
 	position: absolute;
+  width: 600px;
+  z-index: 1;
+  .search-input, form {
+    border: none;
+    width: 100%;
+  }
+  .search-input {
+    padding: 28px 45px 28px 55px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.accessibility-text {
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
 }
 .grid-layout {
 	display: grid;
@@ -129,6 +149,7 @@ body {
 }
 .card {
 }
+
 @media (min-width: $screen-sm-min) {
 	.hero {
 		min-height: 360px;
