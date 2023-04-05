@@ -5,7 +5,7 @@ interface GridProps {}
 const CardsGrid: React.FC<GridProps> = () => {
 	return (
 		<div className='Cards-Grid'>
-			<ol className='js-thumbnail-grid shots-grid group dribbbles container-fluid is-scrolled'>
+			<ol className='grid-layout'>
 				<li
 					id='screenshot-20978235'
 					data-thumbnail-id='20978235'
@@ -16,12 +16,6 @@ const CardsGrid: React.FC<GridProps> = () => {
 				>
 					<div className='js-thumbnail-base shot-thumbnail-base disabled-shot-section dribbble-shot dribbble  '>
 						<figure className='js-thumbnail-placeholder shot-thumbnail-placeholder'>
-							<noscript>
-								<img
-									src='https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?resize=400x0'
-									alt='Harlem afro afro-american cigarette district fireart gangster girl harlem illustration jazz mafia manhattan new york nyc soul street vector whisky woman yellow'
-								/>
-							</noscript>
 							<img
 								alt='Harlem afro afro-american cigarette district fireart gangster girl harlem illustration jazz mafia manhattan new york nyc soul street vector whisky woman yellow'
 								data-srcset='https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=320x240&amp;vertical=top 320w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=400x300&amp;vertical=top 400w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=450x338&amp;vertical=top 450w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=640x480&amp;vertical=top 640w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=700x525&amp;vertical=top 700w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=800x600&amp;vertical=top 800w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=840x630&amp;vertical=top 840w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=1000x750&amp;vertical=top 1000w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=1200x900&amp;vertical=top 1200w'
@@ -33,26 +27,18 @@ const CardsGrid: React.FC<GridProps> = () => {
 								srcSet='https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=320x240&amp;vertical=top 320w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=400x300&amp;vertical=top 400w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=450x338&amp;vertical=top 450w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=640x480&amp;vertical=top 640w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=700x525&amp;vertical=top 700w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=800x600&amp;vertical=top 800w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=840x630&amp;vertical=top 840w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=1000x750&amp;vertical=top 1000w, https://cdn.dribbble.com/userupload/5517942/file/original-c4fb7fbefe6902cf279b241e44dedc3e.jpg?compress=1&amp;resize=1200x900&amp;vertical=top 1200w'
 							/>
 						</figure>
-
-						<div className='shot-thumbnail-extras'></div>
-
 						<a
 							className='shot-thumbnail-link dribbble-link js-shot-link'
 							href='/shots/20978235-Harlem'
 						>
-							<span className='accessibility-text'>
-								View Harlem
-							</span>
+							<span className='accessibility-text'>View Harlem</span>
 						</a>
 						<div className='shot-thumbnail-overlay'>
 							<div className='shot-thumbnail-overlay-content'>
 								<div className='shot-title'>Harlem</div>
 
-								<ul className='js-dribbble-shot-actions shot-actions-container'>
-									<li
-										data-bucket-container='true'
-										className='shot-action'
-									>
+								<ul className='shot-actions-container'>
+									<li className='shot-action'>
 										<a
 											className='bucket-shot form-btn'
 											title='Save shot'
@@ -93,9 +79,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 												<path d='m18.199 2.04c-2.606-.284-4.262.961-6.199 3.008-2.045-2.047-3.593-3.292-6.199-3.008-3.544.388-6.321 4.43-5.718 7.96.966 5.659 5.944 9 11.917 12 5.973-3 10.951-6.341 11.917-12 .603-3.53-2.174-7.572-5.718-7.96z'></path>
 											</svg>
 
-											<span className='accessibility-text'>
-												Like
-											</span>
+											<span className='accessibility-text'>Like</span>
 										</a>{" "}
 									</div>
 								</ul>
@@ -108,11 +92,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 						style={{ visibility: "visible" }}
 					>
 						<div className='user-information'>
-							<a
-								className='hoverable url'
-								rel='contact'
-								href='/Fireart-d'
-							>
+							<a className='hoverable url' rel='contact' href='/Fireart-d'>
 								<img
 									className='photo lazyloaded'
 									alt='Fireart Studio'
@@ -121,14 +101,10 @@ const CardsGrid: React.FC<GridProps> = () => {
 									data-src='https://cdn.dribbble.com/users/485324/avatars/mini/479e0aa76edbad47c51f159fd88e2bfa.png?1551975218'
 									src='https://cdn.dribbble.com/users/485324/avatars/mini/479e0aa76edbad47c51f159fd88e2bfa.png?1551975218'
 								/>
-								<span className='display-name'>
-									Fireart Studio
-								</span>
+								<span className='display-name'>Fireart Studio</span>
 							</a>{" "}
 							<a className='badge-link' href='/pro'>
-								<span className='badge badge-team'>
-									Team
-								</span>
+								<span className='badge badge-team'>Team</span>
 							</a>
 						</div>
 						<div className='shot-statistics-container js-shot-statistics'>
@@ -153,9 +129,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 											<path d='m18.199 2.04c-2.606-.284-4.262.961-6.199 3.008-2.045-2.047-3.593-3.292-6.199-3.008-3.544.388-6.321 4.43-5.718 7.96.966 5.659 5.944 9 11.917 12 5.973-3 10.951-6.341 11.917-12 .603-3.53-2.174-7.572-5.718-7.96z'></path>
 										</svg>
 
-										<span className='accessibility-text'>
-											Like
-										</span>
+										<span className='accessibility-text'>Like</span>
 									</a>{" "}
 								</div>
 
@@ -228,10 +202,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 								</div>
 
 								<ul className='js-dribbble-shot-actions shot-actions-container'>
-									<li
-										data-bucket-container='true'
-										className='shot-action'
-									>
+									<li data-bucket-container='true' className='shot-action'>
 										<a
 											className='bucket-shot form-btn'
 											title='Save shot'
@@ -272,9 +243,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 												<path d='m18.199 2.04c-2.606-.284-4.262.961-6.199 3.008-2.045-2.047-3.593-3.292-6.199-3.008-3.544.388-6.321 4.43-5.718 7.96.966 5.659 5.944 9 11.917 12 5.973-3 10.951-6.341 11.917-12 .603-3.53-2.174-7.572-5.718-7.96z'></path>
 											</svg>
 
-											<span className='accessibility-text'>
-												Like
-											</span>
+											<span className='accessibility-text'>Like</span>
 										</a>{" "}
 									</div>
 								</ul>
@@ -287,11 +256,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 						style={{ visibility: "visible" }}
 					>
 						<div className='user-information'>
-							<a
-								className='hoverable url'
-								rel='contact'
-								href='/Widakk'
-							>
+							<a className='hoverable url' rel='contact' href='/Widakk'>
 								<img
 									className='photo lazyloaded'
 									alt='Srdjan Vidakovic'
@@ -300,9 +265,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 									data-src='https://cdn.dribbble.com/users/340292/avatars/mini/71a1136ce3f23ccfd16eef21518d9dd7.jpg?1600259810'
 									src='https://cdn.dribbble.com/users/340292/avatars/mini/71a1136ce3f23ccfd16eef21518d9dd7.jpg?1600259810'
 								/>
-								<span className='display-name'>
-									Srdjan Vidakovic
-								</span>
+								<span className='display-name'>Srdjan Vidakovic</span>
 							</a>{" "}
 							<a className='badge-link' href='/pro'>
 								<span className='badge badge-pro'>Pro</span>
@@ -330,9 +293,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 											<path d='m18.199 2.04c-2.606-.284-4.262.961-6.199 3.008-2.045-2.047-3.593-3.292-6.199-3.008-3.544.388-6.321 4.43-5.718 7.96.966 5.659 5.944 9 11.917 12 5.973-3 10.951-6.341 11.917-12 .603-3.53-2.174-7.572-5.718-7.96z'></path>
 										</svg>
 
-										<span className='accessibility-text'>
-											Like
-										</span>
+										<span className='accessibility-text'>Like</span>
 									</a>{" "}
 								</div>
 
