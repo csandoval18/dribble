@@ -38,9 +38,27 @@ const CardsGrid: React.FC<GridProps> = () => {
 		},
 		{
 			imageSrc: "./assets/original-81e91a282c3ce332de69954ee1115b78.webp",
-			title: "",
-			user: "",
-			company: "",
+			title: "Harlem",
+			user: "Patryk Wojciechowicsz",
+			company: "Fireart Studio",
+		},
+		{
+			imageSrc: "./assets/original-378a8f118d15fdab93279416242e09aa.webp",
+			title: "Morning Clarity",
+			user: "Nathan Walker",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-825ebd5d60ba5ca08964422e2f765ad4.webp",
+			title: "Crawfish Boil Merch",
+			user: "Joseph Ernst",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-960aadf470d648a38747122dd0750480.webp",
+			title: "Nike Sneakers Illustration",
+			user: "Mako Zakaidze",
+			company: null,
 		},
 	]
 	return (
