@@ -14,6 +14,7 @@ const CardsGrid: React.FC<GridProps> = () => {
 		{
 			imageSrc: "./assets/original-81e91a282c3ce332de69954ee1115b78.webp",
 			title: "Harlem",
+			user: "Patryk Wojciechowicz",
 		},
 	]
 	return (

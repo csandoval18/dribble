@@ -1,6 +1,6 @@
 .grid-layout {
 	display: grid;
-	grid-template-columns: 353px;
+	grid-template-columns: 1fr;
 	row-gap: 36px;
 	list-style: none;
 	padding: 0 20px;
@@ -22,6 +22,7 @@
 
 @media (min-width: 310px) {
 	.card {
+		width: 100%;
 	}
 }
 
