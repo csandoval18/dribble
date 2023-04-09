@@ -2,10 +2,6 @@ body {
 	margin: 0;
 }
 
-.home {
-	margin-top: 68px;
-}
-
 .search-results-details {
 	padding: 0 16px;
 	text-align: center;
@@ -106,12 +102,12 @@ body {
 .btn {
 	border-radius: 18px !important;
 	color: $white !important;
+	padding: 10px 15px;
 }
 
 .btn-hero {
 	background-color: rgba(0, 0, 0, 0.5);
 	font-size: 16px;
-	padding: 10px 15px;
 	transition: background-color 0.2s ease, color 0.5s ease-out;
 	&:hover {
 		background-color: $white;
@@ -120,6 +116,11 @@ body {
 }
 
 .btn-outline {
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	padding: 5px 14px;
+	&:hover {
+		border: 1px solid rgba(255, 255, 255, 1);
+	}
 }
 
 .hero-headings {
@@ -182,11 +183,17 @@ body {
 	}
 }
 
-@media (min-width: $screen-sm-min) {
-	.grid-layout {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+.trending-menu {
+	display: flex;
+	gap: 0.8rem;
+	list-style: none;
+	padding-left: 0;
+	p {
+		color: $white;
 	}
+}
+
+@media (min-width: $screen-sm-min) {
 	.search-icon,
 	.btn-register {
 		display: flex;
@@ -199,11 +206,11 @@ body {
 		font-size: 16px !important;
 		padding: 16px 20px;
 	}
-	.hero-media video {
-		height: auto;
-	}
 	.hero-media {
 		height: 560px;
+		video {
+			height: auto;
+		}
 	}
 }
 

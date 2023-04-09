@@ -4,7 +4,7 @@ interface TrendingSearchesProps {}
 
 const TrendingSearches: React.FC<TrendingSearchesProps> = () => {
 	return (
-		<ul className='TrendingSearches'>
+		<ul className='TrendingSearches trending-menu'>
 			<li>
 				<p>Trending searches</p>
 			</li>

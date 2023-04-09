@@ -1,4 +1,5 @@
 import React from "react"
+import TrendingSearches from "./TrendingSearches"
 
 interface HeroProps {}
 
@@ -68,9 +69,8 @@ const Hero: React.FC<HeroProps> = () => {
 					<div className='hero-headings'>
 						<h1>Trending web & landing page designs</h1>
 						<p className='sub-heading'>
-							Explore trending Web Design, Response Design,
-							User Experience and User Interfaces from
-							popular design portfolios
+							Explore trending Web Design, Response Design, User Experience and
+							User Interfaces from popular design portfolios
 						</p>
 					</div>
 					<div className='search-input-hero search-input-with-dropdown'>
@@ -94,10 +94,7 @@ const Hero: React.FC<HeroProps> = () => {
 							className='js-search-input-form search-input-form'
 							method='get'
 						>
-							<label
-								htmlFor='search'
-								className='accessibility-text'
-							>
+							<label htmlFor='search' className='accessibility-text'>
 								Search
 							</label>
 							<input
@@ -110,6 +107,7 @@ const Hero: React.FC<HeroProps> = () => {
 							/>
 						</form>
 					</div>
+					<TrendingSearches />
 				</div>
 			</div>
 		</section>

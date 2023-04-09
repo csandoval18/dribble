@@ -8,7 +8,7 @@
 	z-index: 500;
 
 	& + * {
-		padding-top: 75px; //pushes page content below fixed header; make height of header in px
+		padding-top: 68px; //pushes page content below fixed header; make height of header in px
 	}
 }
 .header-notification {
@@ -25,6 +25,7 @@
 .header-layout {
 	align-items: center;
 	display: flex;
+	height: 100%;
 	margin: 0 24px;
 	position: relative;
 	min-height: 68px;
@@ -63,7 +64,8 @@
 }
 .btn-signin {
 	color: $grey !important;
-	font-size: 17px;
+	font-size: 14px;
+	font-weight: 600;
 	&:hover {
 		color: $grey !important;
 	}
@@ -72,8 +74,9 @@
 	background-color: $main;
 	border-radius: 8px;
 	color: $white !important;
-	font-size: 17px;
-	padding: 10px 16px;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 11px 15px;
 	&:hover {
 		background-color: #f082ac;
 	}
@@ -120,5 +123,14 @@
 	}
 	.btn-signup {
 		display: block;
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+	header {
+		height: 80px;
+		& + * {
+			padding-top: 80px; //pushes page content below fixed header; make height of header in px
+		}
 	}
 }
