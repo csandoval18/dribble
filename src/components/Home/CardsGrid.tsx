@@ -1,14 +1,8 @@
 import React from "react"
 import Card from "../Card"
+import { Image } from "../../utils/types"
 
 interface GridProps {}
-
-interface Image {
-	imageSrc: String
-	title: String
-	user: String
-	company: string | null
-}
 
 const CardsGrid: React.FC<GridProps> = () => {
 	const imageData: Image[] = [
@@ -58,6 +52,12 @@ const CardsGrid: React.FC<GridProps> = () => {
 			imageSrc: "./assets/original-960aadf470d648a38747122dd0750480.webp",
 			title: "Nike Sneakers Illustration",
 			user: "Mako Zakaidze",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-6683d80b5b1e6d75ba883f202d8ff980.webp",
+			title: "Goog-a-roony",
+			user: "Ann-sophie De Sterur",
 			company: null,
 		},
 	]
