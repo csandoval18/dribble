@@ -1,12 +1,11 @@
 import React from "react"
-import cardImg from "../assets/original-81e91a282c3ce332de69954ee1115b78.webp"
 import { CardProps } from "../utils/types"
 
-const Card: React.FC<CardProps> = () => {
+const Card: React.FC<CardProps> = (cardProps: CardProps) => {
 	return (
 		<li className='card'>
 			<figure>
-				<img src={cardImg} alt='' />
+				<img src={cardProps.imageSrc} alt='' />
 			</figure>
 			<div className='details'>
 				<div className='user-info'></div>
