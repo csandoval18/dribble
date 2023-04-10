@@ -1,6 +1,6 @@
-export interface Image {
-	imageSrc: String
-	title: String
-	user: String
+export interface CardProps {
+	imageSrc: string
+	title: string
+	user: string
 	company: string | null
 }

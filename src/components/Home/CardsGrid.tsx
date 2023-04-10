@@ -1,12 +1,11 @@
 import React from "react"
 import Card from "../Card"
-import { Image } from "../../utils/types"
-import { unmountComponentAtNode } from "react-dom"
+import { CardProps } from "../../utils/types"
 
 interface GridProps {}
 
 const CardsGrid: React.FC<GridProps> = () => {
-	const imageData: Image[] = [
+	const cardData: CardProps[] = [
 		{
 			imageSrc: "./assets/87f3f444-2f03-4e0a-91c2-90913cf4b799_4x.webp",
 			title: "creative Sotuh 2023",
@@ -95,7 +94,14 @@ const CardsGrid: React.FC<GridProps> = () => {
 	return (
 		<div className='Cards-Grid'>
 			<ol className='grid-layout'>
-				<Card></Card>
+				{cardData.map((cardFields: CardProps) => (
+					<Card
+						imageSrc={cardFields.imageSrc}
+						title={cardFields.title}
+						user={cardFields.user}
+						company={cardFields.company}
+					></Card>
+				))}
 			</ol>
 		</div>
 	)

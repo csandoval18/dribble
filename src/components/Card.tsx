@@ -1,7 +1,6 @@
 import React from "react"
 import cardImg from "../assets/original-81e91a282c3ce332de69954ee1115b78.webp"
-
-interface CardProps {}
+import { CardProps } from "../utils/types"
 
 const Card: React.FC<CardProps> = () => {
 	return (
