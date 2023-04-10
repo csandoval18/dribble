@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "../Card"
 import { Image } from "../../utils/types"
+import { unmountComponentAtNode } from "react-dom"
 
 interface GridProps {}
 
@@ -58,6 +59,36 @@ const CardsGrid: React.FC<GridProps> = () => {
 			imageSrc: "./assets/original-6683d80b5b1e6d75ba883f202d8ff980.webp",
 			title: "Goog-a-roony",
 			user: "Ann-sophie De Sterur",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-621596f85c1b864fada293ec5eb1bf6a.webp",
+			title: "Toot!",
+			user: "Rik Catlow",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-a5e1e93a9139b353b734ef99c983d4ee.webp",
+			title: "A1 Basketball Card",
+			user: "Kyle Loaney",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-cbecb02a127c88f1d255410ba9d763d4.webp",
+			title: "The creative paperwork outline",
+			user: "Tyler Pate",
+			company: null,
+		},
+		{
+			imageSrc: "./assets/original-fd7f75a47397823036cc31ce1ed668a3.webp",
+			title: "Dev jokes. Fatal error.",
+			user: "SAVATAGE",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-fd78bf0c98c90e3159a2def5cece9788.webp",
+			title: "Space Chasers",
+			user: "Isaac LeFever",
 			company: null,
 		},
 	]
