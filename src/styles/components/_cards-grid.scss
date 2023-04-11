@@ -15,7 +15,7 @@
 		height: 100%;
 		margin: 0;
 		img {
-			height: 100%;
+            height: max-content;
 			width: 100%;
 		}
 	}
@@ -38,51 +38,55 @@
 			gap: 4px;
 		}
 	}
-	&:hover {
-	}
 }
 .card-bg-wrapper {
-        border-radius: 8px;
+	border-radius: 8px;
 	position: relative;
-    overflow: hidden;
-	&:hover::after {
-		background: linear-gradient(
-			180deg,
-			transparent 62%,
-			rgba(0, 0, 0, 0.00345888) 63.94%,
-			rgba(0, 0, 0, 0.014204) 65.89%,
-			rgba(0, 0, 0, 0.0326639) 67.83%,
-			rgba(0, 0, 0, 0.0589645) 69.78%,
-			rgba(0, 0, 0, 0.0927099) 71.72%,
-			rgba(0, 0, 0, 0.132754) 73.67%,
-			rgba(0, 0, 0, 0.177076) 75.61%,
-			rgba(0, 0, 0, 0.222924) 77.56%,
-			rgba(0, 0, 0, 0.267246) 79.5%,
-			rgba(0, 0, 0, 0.30729) 81.44%,
-			rgba(0, 0, 0, 0.341035) 83.39%,
-			rgba(0, 0, 0, 0.367336) 85.33%,
-			rgba(0, 0, 0, 0.385796) 87.28%,
-			rgba(0, 0, 0, 0.396541) 89.22%,
-			rgba(0, 0, 0, 0.4) 91.17%
-		);
-		content: '';
-		display: block;
-		position: absolute;
-        height: 100%;
-        top: 0;
-        left: 0;
-        width: 100%;
+	overflow: hidden;
+	&:hover {
+		.card-hover-content {
+			display: block;
+		}
+		&::after {
+			background: linear-gradient(
+				180deg,
+				transparent 62%,
+				rgba(0, 0, 0, 0.00345888) 63.94%,
+				rgba(0, 0, 0, 0.014204) 65.89%,
+				rgba(0, 0, 0, 0.0326639) 67.83%,
+				rgba(0, 0, 0, 0.0589645) 69.78%,
+				rgba(0, 0, 0, 0.0927099) 71.72%,
+				rgba(0, 0, 0, 0.132754) 73.67%,
+				rgba(0, 0, 0, 0.177076) 75.61%,
+				rgba(0, 0, 0, 0.222924) 77.56%,
+				rgba(0, 0, 0, 0.267246) 79.5%,
+				rgba(0, 0, 0, 0.30729) 81.44%,
+				rgba(0, 0, 0, 0.341035) 83.39%,
+				rgba(0, 0, 0, 0.367336) 85.33%,
+				rgba(0, 0, 0, 0.385796) 87.28%,
+				rgba(0, 0, 0, 0.396541) 89.22%,
+				rgba(0, 0, 0, 0.4) 91.17%
+			);
+			content: '';
+			display: block;
+			position: absolute;
+			height: 100%;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
 	}
 }
 
 .card-hover-content {
 	color: $white;
+	display: none;
 	font-size: 18px;
 	font-weight: 600;
 	position: absolute;
 	padding: 12px;
 	bottom: 0;
-    z-index: 1;
+	z-index: 1;
 }
 
 @media (min-width: 310px) {
