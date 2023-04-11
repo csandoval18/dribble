@@ -1,0 +1,45 @@
+.grid-layout {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 36px;
+	list-style: none;
+	padding: 0 20px;
+}
+
+.card {
+	border-radius: 10px;
+	overflow: hidden;
+	width: 270px;
+	figure {
+		height: 100%;
+		margin: 0;
+		img {
+			height: inherit;
+			width: 100%;
+		}
+	}
+	.details {
+		display: flex;
+		justify-content: space-between;
+		.stats {
+			display: flex;
+			color: #999;
+			gap: 15px;
+		}
+	}
+}
+
+@media (min-width: 310px) {
+	.card {
+		width: 100%;
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	.grid-layout {
+		grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+		gap: 20px;
+	}
+	.card {
+	}
+}
