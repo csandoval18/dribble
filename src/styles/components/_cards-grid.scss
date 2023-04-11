@@ -18,6 +18,15 @@
 			width: 100%;
 		}
 	}
+	.details {
+		display: flex;
+		justify-content: space-between;
+		.stats {
+			display: flex;
+			color: #999;
+			gap: 15px;
+		}
+	}
 }
 
 @media (min-width: 310px) {

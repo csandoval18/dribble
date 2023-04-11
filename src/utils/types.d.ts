@@ -3,4 +3,6 @@ export interface CardProps {
 	title: string
 	user: string
 	company: string | null
+	likes: number
+	views: number
 }
