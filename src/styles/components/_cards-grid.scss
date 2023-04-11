@@ -3,12 +3,14 @@
 	grid-template-columns: 1fr;
 	row-gap: 36px;
 	list-style: none;
+    max-height: 270px;
 	padding: 0 20px;
 }
 
 .card {
 	border-radius: 10px;
 	overflow: hidden;
+    min-height: 217.5px;
 	width: 270px;
 	figure {
 		height: 100%;

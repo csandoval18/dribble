@@ -5,4 +5,5 @@ export interface CardProps {
 	company: string | null
 	likes: number
 	views: number
+    categories: string[] | string
 }
