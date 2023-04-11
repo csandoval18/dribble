@@ -1,5 +1,6 @@
 .grid-layout {
 	display: grid;
+    gap: 36px;
 	grid-template-columns: 1fr;
 	row-gap: 36px;
 	list-style: none;
@@ -92,12 +93,16 @@
 .card-hover-content {
 	color: $white;
 	display: none;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 600;
 	position: absolute;
-	padding: 12px;
+	padding: 20px;
 	bottom: 0;
 	z-index: 1;
+}
+
+.user-avatar {
+    
 }
 
 @media (min-width: 310px) {
@@ -117,7 +122,6 @@
 			minmax(270px, 1fr)
 		);
 		grid-template-rows: 1fr;
-		gap: 20px;
 	}
 	.card {
 		figure {
@@ -131,7 +135,6 @@
 
 @media (min-width: $screen-lg-min) {
 	.grid-layout {
-		gap: 36px;
 		padding: 0 72px;
 	}
 }
