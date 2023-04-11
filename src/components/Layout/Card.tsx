@@ -15,14 +15,19 @@ const Card: React.FC<CardProps> = (
 							alt=''
 						/>
 					</figure>
-                    <div className="card-hover-content">
-                        <span className="title">{cardProps.title}</span>
-                        <div className="icon-menu"></div>
-                    </div>
+					<div className='card-hover-content'>
+						<span className='title'>
+							{cardProps.title}
+						</span>
+						<div className='icon-menu'></div>
+					</div>
 				</div>
 				<div className='details'>
 					<div className='user-info'>
-						{cardProps.user}
+						<span className='user-avatar'></span>
+						<span className='user-name'>
+							{cardProps.user}
+						</span>
 					</div>
 					<div className='stats'>
 						<span className='likes'>
