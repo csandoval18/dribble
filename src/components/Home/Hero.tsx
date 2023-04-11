@@ -75,7 +75,7 @@ const Hero: React.FC<HeroProps> = () => {
 						</p>
 					</div>
 					<div className='search-input-hero search-input-with-dropdown'>
-                        <BiSearch/>
+                        <BiSearch className="search-input-icon"/>
 						<form
 							action='/search'
 							className='js-search-input-form search-input-form'
