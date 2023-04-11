@@ -11,8 +11,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "creative Sotuh 2023",
 			user: "Victor Korchuk",
 			company: "unfold",
-			views: 32200,
-			likes: 132,
+			views: 580,
+			likes: 16,
             categories: ["discover", "illustration", "print", "art"]
 		},
 		{
@@ -20,8 +20,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "I love you Arizona!",
 			user: "Robinsson Cravents",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 1300,
+			likes: 39,
             categories: ["discover", "illustration", "print", "art"]
 		},
 		{
@@ -29,8 +29,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Fried Egg & Hot Dog",
 			user: "Matt Anderson",
 			company: "Canopy",
-			views: 13200,
-			likes: 86,
+			views: 16500,
+			likes: 101,
             categories: ["discover", "illustration", "print", "art"]
 		},
 		{
@@ -38,8 +38,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Lailatul Qadr Ramadan Illustration",
 			user: "Labib Ahmadin",
 			company: "Odama",
-			views: 13200,
-			likes: 86,
+			views: 39600,
+			likes: 258,
             categories: ["discover", "illustration", "art", "branding", "product design"]
 		},
 		{
@@ -47,8 +47,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Harlem",
 			user: "Patryk Wojciechowicsz",
 			company: "Fireart Studio",
-			views: 13200,
-			likes: 86,
+			views: 12000,
+			likes: 177,
             categories: ["discover", "illustration", "art", "branding", "product design"]
 		},
 		{
@@ -56,8 +56,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Morning Clarity",
 			user: "Nathan Walker",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 7700,
+			likes: 123,
             categories: ["discover", "illustration", "art", "branding", "product design"]
 		},
 		{
@@ -65,8 +65,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Crawfish Boil Merch",
 			user: "Joseph Ernst",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 19800,
+			likes: 117,
             categories: ["discover", "illustration", "art", "branding", "product design", "typography", "web design"]
 		},
 		{
@@ -74,8 +74,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Nike Sneakers Illustration",
 			user: "Mako Zakaidze",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 9600,
+			likes: 178,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -83,8 +83,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Goog-a-roony",
 			user: "Ann-sophie De Sterur",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 18500,
+			likes: 263,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -92,8 +92,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Toot!",
 			user: "Rik Catlow",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 4900,
+			likes: 43,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -101,8 +101,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "A1 Basketball Card",
 			user: "Kyle Loaney",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 32300,
+			likes: 372,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -110,8 +110,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "The creative paperwork outline",
 			user: "Tyler Pate",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 4500,
+			likes: 96,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -119,8 +119,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Dev jokes. Fatal error.",
 			user: "SAVATAGE",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 4100,
+			likes: 34,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -128,8 +128,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Space Chasers",
 			user: "Isaac LeFever",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 18300,
+			likes: 127,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -137,8 +137,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Guilty Saint Seiya 聖闘士星矢",
 			user: "Manuel Cetina",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 22700,
+			likes: 330,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -146,8 +146,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Crypto",
 			user: "Matt Pamer",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 6400,
+			likes: 87,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -155,8 +155,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Multiwallet - Illustration",
 			user: "Dmitrii Kharchenko",
 			company: "FormFrom",
-			views: 13200,
-			likes: 86,
+			views: 952,
+			likes: 24,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -164,8 +164,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Pixelopolis",
 			user: "German Kopytkov",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 2600,
+			likes: 20,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -173,8 +173,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Bored? How about playing? Combat Rock...",
 			user: "Enrique 9 Dedos",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 10700,
+			likes: 75,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -182,8 +182,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "灯笼海棠 - Fuchsia",
 			user: "Titian1112",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 6800,
+			likes: 65,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -191,8 +191,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Alignment Icons",
 			user: "Fernando Soares",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 7800,
+			likes: 124,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -200,8 +200,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Diana",
 			user: "Max Hodlevskyi",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 2400,
+			likes: 36,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -209,8 +209,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Winked App illustration",
 			user: "Tommaso D'Angelosante",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 4500,
+			likes: 96,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 		{
@@ -218,8 +218,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "SLOTH",
 			user: "Lucas de Oliveira",
 			company: null,
-			views: 13200,
-			likes: 86,
+			views: 8800,
+			likes: 109,
             categories: ["discover", "illustration", "art", "branding", "product design", "web design"]
 		},
 	]

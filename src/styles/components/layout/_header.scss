@@ -126,8 +126,8 @@
 	}
 }
 
-@media (min-width: $screen-lg-min) {
-	header {
+@media (min-width: $screen-sm-min) {
+	.site-header {
 		height: 80px;
 		& + * {
 			padding-top: 80px; //pushes page content below fixed header; make height of header in px

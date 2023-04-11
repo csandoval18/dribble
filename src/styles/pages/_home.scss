@@ -162,27 +162,6 @@ body {
 	width: 0;
 }
 
-.grid-layout {
-	display: grid;
-	grid-template-columns: 353px;
-	list-style: none;
-	padding: 0 20px;
-}
-
-.card {
-	border-radius: 10px;
-	overflow: hidden;
-	width: 270px;
-	figure {
-		height: 100%;
-		margin: 0;
-		img {
-			height: inherit;
-			width: 100%;
-		}
-	}
-}
-
 .trending-menu {
 	display: flex;
 	gap: 0.8rem;
@@ -197,6 +176,12 @@ body {
 	.search-icon,
 	.btn-register {
 		display: flex;
+	}
+    .hero-media {
+		height: 560px;
+		video {
+			height: auto;
+		}
 	}
 }
 
@@ -218,4 +203,12 @@ body {
 	.hero-media video {
 		width: 100%;
 	}
+    .hero-headings {
+        h1 {
+            font-size: 34px;
+        }
+        .sub-heading {
+            font-size: 15px;
+        }
+    }
 }
