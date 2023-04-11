@@ -83,90 +83,120 @@ const CardsGrid: React.FC<GridProps> = () => {
 			title: "Toot!",
 			user: "Rik Catlow",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-a5e1e93a9139b353b734ef99c983d4ee.webp",
 			title: "A1 Basketball Card",
 			user: "Kyle Loaney",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-cbecb02a127c88f1d255410ba9d763d4.webp",
 			title: "The creative paperwork outline",
 			user: "Tyler Pate",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-fd7f75a47397823036cc31ce1ed668a3.webp",
 			title: "Dev jokes. Fatal error.",
 			user: "SAVATAGE",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-fd78bf0c98c90e3159a2def5cece9788.webp",
 			title: "Space Chasers",
 			user: "Isaac LeFever",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-277a669d48baf3fccc5cdb98975e3a30.webp",
 			title: "Guilty Saint Seiya 聖闘士星矢",
 			user: "Manuel Cetina",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-937ce5bbb52b6967b9b6ee9fedfdbd2c.webp",
 			title: "Crypto",
 			user: "Matt Pamer",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-4477e37fd888b0a617fd763a94295c23.webp",
 			title: "Multiwallet - Illustration",
 			user: "Dmitrii Kharchenko",
 			company: "FormFrom",
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-b412cf197c144c63565092b340f0fbb7.webp",
 			title: "Pixelopolis",
 			user: "German Kopytkov",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-37aaeb55ce759600d0a8233544c0a5a0.webp",
 			title: "Bored? How about playing? Combat Rock...",
 			user: "Enrique 9 Dedos",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-670c4f6a43258d77599406e08075fa82.webp",
 			title: "灯笼海棠 - Fuchsia",
 			user: "Titian1112",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-cff78eac98dcf91d37cf0c6794fcea60.webp",
 			title: "Alignment Icons",
 			user: "Fernando Soares",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-98246cd450cdd7fe126c4defe4f43a0c.webp",
 			title: "Diana",
 			user: "Max Hodlevskyi",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-868a58a72be54dfafd1b87568c06369f.webp",
 			title: "Winked App illustration",
 			user: "Tommaso D'Angelosante",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 		{
 			imageSrc: "src/assets/original-64d930abd04a9966361d811812ddbb9b.webp",
 			title: "SLOTH",
 			user: "Lucas de Oliveira",
 			company: null,
+			views: 13200,
+			likes: 86,
 		},
 	]
 	return (
@@ -178,6 +208,8 @@ const CardsGrid: React.FC<GridProps> = () => {
 						title={cardFields.title}
 						user={cardFields.user}
 						company={cardFields.company}
+						views={cardFields.views}
+						likes={cardFields.likes}
 					></Card>
 				))}
 			</ol>
