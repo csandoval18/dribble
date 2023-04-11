@@ -90,6 +90,48 @@ const CardsGrid: React.FC<GridProps> = () => {
 			user: "Isaac LeFever",
 			company: null,
 		},
+		{
+			imageSrc: "src/assets/original-277a669d48baf3fccc5cdb98975e3a30.webp",
+			title: "Guilty Saint Seiya 聖闘士星矢",
+			user: "Manuel Cetina",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-937ce5bbb52b6967b9b6ee9fedfdbd2c.webp",
+			title: "Crypto",
+			user: "Matt Pamer",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-4477e37fd888b0a617fd763a94295c23.webp",
+			title: "Multiwallet - Illustration",
+			user: "Dmitrii Kharchenko",
+			company: "FormFrom",
+		},
+		{
+			imageSrc: "src/assets/original-b412cf197c144c63565092b340f0fbb7.webp",
+			title: "Pixelopolis",
+			user: "German Kopytkov",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-37aaeb55ce759600d0a8233544c0a5a0.webp",
+			title: "Bored? How about playing? Combat Rock...",
+			user: "Enrique 9 Dedos",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-670c4f6a43258d77599406e08075fa82.webp",
+			title: "灯笼海棠 - Fuchsia",
+			user: "Titian1112",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-cff78eac98dcf91d37cf0c6794fcea60.webp",
+			title: "Alignment Icons",
+			user: "Fernando Soares",
+			company: null,
+		},
 	]
 	return (
 		<div className='Cards-Grid'>
