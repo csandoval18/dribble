@@ -132,6 +132,24 @@ const CardsGrid: React.FC<GridProps> = () => {
 			user: "Fernando Soares",
 			company: null,
 		},
+		{
+			imageSrc: "src/assets/original-98246cd450cdd7fe126c4defe4f43a0c.webp",
+			title: "Diana",
+			user: "Max Hodlevskyi",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-868a58a72be54dfafd1b87568c06369f.webp",
+			title: "Winked App illustration",
+			user: "Tommaso D'Angelosante",
+			company: null,
+		},
+		{
+			imageSrc: "src/assets/original-64d930abd04a9966361d811812ddbb9b.webp",
+			title: "SLOTH",
+			user: "Lucas de Oliveira",
+			company: null,
+		},
 	]
 	return (
 		<div className='Cards-Grid'>
